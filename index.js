@@ -1,40 +1,38 @@
-// var str = "The quick brown fox jumps over the lazy dog"
-// var find = 'the'
+var str = "The quick brown fox jumps over the lazy dog"
+var find = 'the'
 
-// for(var i = 0; i < str.length; i++){
-// console.log(str.slice(i, i + find.length))
-// }
+for(var i = 0; i < str.length; i++){
+console.log(str.slice(i, i + find.length))
+}
 
+// question 2
+var username = 'hajra ashraf'
+var result = ""
 
-
-// // question 2
-// var username = 'hajra ashraf'
-// var result = ""
-
-// for(var i = 1; i < username.length; i++){
-//     if(username[i] === " "){
-//        result += " " + username[i + 1].toUpperCase()
-//        continue
-//     }else{
-//        result += username[i]
-//     }
-// }
-// console.log(result)
+for(var i = 1; i < username.length; i++){
+    if(username[i] === " "){
+       result += " " + username[i + 1].toUpperCase()
+       continue
+    }else{
+       result += username[i]
+    }
+}
+console.log(result)
 
 
-// // ----------------------- question 3 -------------------------
-// var today = new Date()
-// var months = ['mon', 'tue', 'wed', 'thur', 'fri', 'sat', 'sun']
+// ----------------------- question 3 -------------------------
+var today = new Date()
+var months = ['mon', 'tue', 'wed', 'thur', 'fri', 'sat', 'sun']
 
-// document.write(today, '<br> <br>');
-// document.write('current month is ' ,months[today.getDay()], '<br>')
+document.write(today, '<br> <br>');
+document.write('current month is ' ,months[today.getDay()], '<br>')
 
-// // ---------------------question 4 -----------------------
-// var today = new Date()
-// var months = ['sun','mon', 'tue', 'wed', 'thur', 'fri', 'sat']
-// if(months[today.getDay()] === 'sat' ||months[today.getDay()] === 'sat' ){
-//     document.write('today is fun day')
-// }
+// ---------------------question 4 -----------------------
+var today = new Date()
+var months = ['sun','mon', 'tue', 'wed', 'thur', 'fri', 'sat']
+if(months[today.getDay()] === 'sat' ||months[today.getDay()] === 'sat' ){
+    document.write('today is fun day')
+}
 
 // ---------------------question 5 -----------------
 var todayDate = new Date()
